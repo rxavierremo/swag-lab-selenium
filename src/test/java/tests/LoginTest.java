@@ -1,5 +1,6 @@
 package tests;
 
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import base.BaseTest;
@@ -16,7 +17,7 @@ public class LoginTest extends BaseTest{
 		loginPage.inputPassword("secret_sauce");
 		loginPage.clickLogin();
 		
-		System.out.println("The title of this page is: " + driver.getTitle());
+		Assert.assertEquals(driver.getTitle(), "Swag Labs");
 	}
  	
 }

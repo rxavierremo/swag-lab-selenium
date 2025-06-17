@@ -7,15 +7,19 @@ This is a project that uses Selenium WebDriver for a demo e-commerce web applica
 ### 📁Project Structure
 
 swag-labs/
-├── src/main/java
-│   ├── base/  
-|   ├── pages/
-│   └── utils/         
-├── src/test/java     
-│   └── tests/ 
-├── pom.xml 
-├── testng.xml 
-└── README.md
+├───src
+│   ├───main
+│   │   ├───java
+│   │   │   ├───base
+│   │   │   ├───pages
+│   │   │   └───utils
+│   │   └───resources
+│   └───test
+│       ├───java
+│       │   └───tests
+│       └───resources
+└───pom.xml
+└───testng.xml
 
 ### Prerequisites
 * JDK 17 
@@ -25,3 +29,4 @@ swag-labs/
 
 ### Key Features
 * Page Object Model (POM) for organization, maintainability, and reusability of code.
+
